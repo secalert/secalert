@@ -13,7 +13,7 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 | ID | Product | Type | CWE | Year |
 |----|---------|------|-----|------|
 | [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | Stored XSS | CWE-79 | 2026 |
-| [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | Remote Code Execution (SpEL injection) | CWE-917 | 2016 |
+| [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | Unauthenticated Remote Code Execution | CWE-917 | 2016 |
 | [CVE-2016-3109](https://nvd.nist.gov/vuln/detail/CVE-2016-3109) | Shopware | Unauthenticated Remote Code Execution | CWE-94 | 2016 |
 | [CVE-2012-0674](https://nvd.nist.gov/vuln/detail/CVE-2012-0674) | Apple iOS / Mobile Safari | Address Bar Spoofing | CWE-451 | 2012 |
 | [CVE-2011-4634](https://nvd.nist.gov/vuln/detail/CVE-2011-4634) | phpMyAdmin | Cross-Site Scripting (XSS) | CWE-79 | 2011 |
