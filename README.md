@@ -10,39 +10,36 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 **Handle:** @secalert &nbsp;&nbsp; [hackerone.com/secalert](https://hackerone.com/secalert)
 
 ## Advisories and CVEs
-
-GHSA first, then CVE IDs (newest first). Each ID links to its primary source.
-
-| ID | Product | Vendor | Type | Year |
-|----|---------|--------|------|------|
-| [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | xdan / Jodit | Stored XSS (CWE-79) | 2026 |
-| [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | Pivotal / VMware (Spring) | Remote Code Execution (SpEL injection) | 2016 |
-| [CVE-2016-3109](https://nvd.nist.gov/vuln/detail/CVE-2016-3109) | Shopware | shopware AG | Unauthenticated Remote Code Execution | 2016 |
-| [CVE-2012-0674](https://nvd.nist.gov/vuln/detail/CVE-2012-0674) | Apple iOS / Mobile Safari | Apple | Address Bar Spoofing | 2012 |
-| [CVE-2011-4634](https://nvd.nist.gov/vuln/detail/CVE-2011-4634) | phpMyAdmin | phpMyAdmin Project | Cross-Site Scripting (XSS) | 2011 |
-| [CVE-2011-0635](https://nvd.nist.gov/vuln/detail/CVE-2011-0635) | Simploo CMS Community Edition | Simploo GmbH | Remote PHP Code Injection | 2011 |
-| [CVE-2011-0508](https://nvd.nist.gov/vuln/detail/CVE-2011-0508) | Contao CMS | Contao | Persistent XSS | 2011 |
-| [CVE-2010-2339](https://nvd.nist.gov/vuln/detail/CVE-2010-2339) | Subdreamer CMS | Subdreamer | SQL Injection | 2010 |
-| [CVE-2008-6131](https://nvd.nist.gov/vuln/detail/CVE-2008-6131) | moziloWiki | mozilo | Session Fixation | 2008 |
-| [CVE-2008-6130](https://nvd.nist.gov/vuln/detail/CVE-2008-6130) | moziloWiki | mozilo | Cross-Site Scripting (XSS) | 2008 |
-| [CVE-2008-6129](https://nvd.nist.gov/vuln/detail/CVE-2008-6129) | moziloWiki | mozilo | Directory Traversal | 2008 |
-| [CVE-2008-6128](https://nvd.nist.gov/vuln/detail/CVE-2008-6128) | moziloCMS | mozilo | Directory Traversal / XSS / Session Fixation | 2008 |
-| [CVE-2008-6127](https://nvd.nist.gov/vuln/detail/CVE-2008-6127) | moziloCMS | mozilo | Directory Traversal / XSS / Session Fixation | 2008 |
-| [CVE-2008-6045](https://nvd.nist.gov/vuln/detail/CVE-2008-6045) | xt:Commerce | xt:Commerce | Session Fixation | 2008 |
-| [CVE-2008-6044](https://nvd.nist.gov/vuln/detail/CVE-2008-6044) | xt:Commerce | xt:Commerce | Cross-Site Scripting (XSS) | 2008 |
-| [CVE-2008-6039](https://nvd.nist.gov/vuln/detail/CVE-2008-6039) | BLUEPAGE CMS | BLUEPAGE | XSS / Session Fixation | 2008 |
-| [CVE-2007-3988](https://nvd.nist.gov/vuln/detail/CVE-2007-3988) | Virtual Hosting Control System (VHCS) | VHCS | Session Fixation | 2007 |
-| [CVE-2007-2546](https://nvd.nist.gov/vuln/detail/CVE-2007-2546) | Simple Machines Forum (SMF) | Simple Machines | Session Fixation | 2007 |
-| [CVE-2007-2277](https://nvd.nist.gov/vuln/detail/CVE-2007-2277) | Plogger | Plogger | Session Fixation | 2007 |
-| [CVE-2007-2153](https://nvd.nist.gov/vuln/detail/CVE-2007-2153) | @Mail (ATMail) | Calacode | Cross-Site Scripting (XSS) | 2007 |
-| [CVE-2007-2061](https://nvd.nist.gov/vuln/detail/CVE-2007-2061) | MailBee WebMail Pro | AfterLogic | Cross-Site Scripting (XSS) | 2007 |
-| [CVE-2007-1952](https://nvd.nist.gov/vuln/detail/CVE-2007-1952) | onebyone CMS | onelook | Session Fixation | 2007 |
-| [CVE-2007-1950](https://nvd.nist.gov/vuln/detail/CVE-2007-1950) | webblizzard CMS | webblizzard | Cross-Site Scripting (XSS) | 2007 |
-| [CVE-2007-1949](https://nvd.nist.gov/vuln/detail/CVE-2007-1949) | webblizzard CMS | webblizzard | Session Fixation | 2007 |
-| [CVE-2006-7077](https://nvd.nist.gov/vuln/detail/CVE-2006-7077) | Advanced Guestbook for phpBB | phpBBHacks | SQL Injection | 2006 |
-| [CVE-2006-7076](https://nvd.nist.gov/vuln/detail/CVE-2006-7076) | Advanced Guestbook for phpBB | phpBBHacks | Cross-Site Scripting (XSS) | 2006 |
-| [CVE-2006-6451](https://nvd.nist.gov/vuln/detail/CVE-2006-6451) | Plesk | SWsoft (heute Plesk) | Multiple XSS | 2006 |
-| [CVE-2006-5643](https://nvd.nist.gov/vuln/detail/CVE-2006-5643) | ForeSite CMS | foresite.ch | Cross-Site Scripting (XSS) | 2006 |
+| ID | Product | Type | CWE | Year |
+|----|---------|------|-----|------|
+| [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | Stored XSS | CWE-79 | 2026 |
+| [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | Remote Code Execution (SpEL injection) | CWE-917 | 2016 |
+| [CVE-2016-3109](https://nvd.nist.gov/vuln/detail/CVE-2016-3109) | Shopware | Unauthenticated Remote Code Execution | CWE-94 | 2016 |
+| [CVE-2012-0674](https://nvd.nist.gov/vuln/detail/CVE-2012-0674) | Apple iOS / Mobile Safari | Address Bar Spoofing | CWE-451 | 2012 |
+| [CVE-2011-4634](https://nvd.nist.gov/vuln/detail/CVE-2011-4634) | phpMyAdmin | Cross-Site Scripting (XSS) | CWE-79 | 2011 |
+| [CVE-2011-0635](https://nvd.nist.gov/vuln/detail/CVE-2011-0635) | Simploo CMS Community Edition | Remote PHP Code Injection | CWE-94 | 2011 |
+| [CVE-2011-0508](https://nvd.nist.gov/vuln/detail/CVE-2011-0508) | Contao CMS | Persistent XSS | CWE-79 | 2011 |
+| [CVE-2010-2339](https://nvd.nist.gov/vuln/detail/CVE-2010-2339) | Subdreamer CMS | SQL Injection | CWE-89 | 2010 |
+| [CVE-2008-6131](https://nvd.nist.gov/vuln/detail/CVE-2008-6131) | moziloWiki | Session Fixation | CWE-384 | 2008 |
+| [CVE-2008-6130](https://nvd.nist.gov/vuln/detail/CVE-2008-6130) | moziloWiki | Cross-Site Scripting (XSS) | CWE-79 | 2008 |
+| [CVE-2008-6129](https://nvd.nist.gov/vuln/detail/CVE-2008-6129) | moziloWiki | Directory Traversal | CWE-22 | 2008 |
+| [CVE-2008-6128](https://nvd.nist.gov/vuln/detail/CVE-2008-6128) | moziloCMS | Directory Traversal / XSS / Session Fixation | CWE-22 / CWE-79 / CWE-384 | 2008 |
+| [CVE-2008-6127](https://nvd.nist.gov/vuln/detail/CVE-2008-6127) | moziloCMS | Directory Traversal / XSS / Session Fixation | CWE-22 / CWE-79 / CWE-384 | 2008 |
+| [CVE-2008-6045](https://nvd.nist.gov/vuln/detail/CVE-2008-6045) | xt:Commerce | Session Fixation | CWE-384 | 2008 |
+| [CVE-2008-6044](https://nvd.nist.gov/vuln/detail/CVE-2008-6044) | xt:Commerce | Cross-Site Scripting (XSS) | CWE-79 | 2008 |
+| [CVE-2008-6039](https://nvd.nist.gov/vuln/detail/CVE-2008-6039) | BLUEPAGE CMS | XSS / Session Fixation | CWE-79 / CWE-384 | 2008 |
+| [CVE-2007-3988](https://nvd.nist.gov/vuln/detail/CVE-2007-3988) | Virtual Hosting Control System (VHCS) | Session Fixation | CWE-384 | 2007 |
+| [CVE-2007-2546](https://nvd.nist.gov/vuln/detail/CVE-2007-2546) | Simple Machines Forum (SMF) | Session Fixation | CWE-384 | 2007 |
+| [CVE-2007-2277](https://nvd.nist.gov/vuln/detail/CVE-2007-2277) | Plogger | Session Fixation | CWE-384 | 2007 |
+| [CVE-2007-2153](https://nvd.nist.gov/vuln/detail/CVE-2007-2153) | @Mail (ATMail) | Cross-Site Scripting (XSS) | CWE-79 | 2007 |
+| [CVE-2007-2061](https://nvd.nist.gov/vuln/detail/CVE-2007-2061) | MailBee WebMail Pro | Cross-Site Scripting (XSS) | CWE-79 | 2007 |
+| [CVE-2007-1952](https://nvd.nist.gov/vuln/detail/CVE-2007-1952) | onebyone CMS | Session Fixation | CWE-384 | 2007 |
+| [CVE-2007-1950](https://nvd.nist.gov/vuln/detail/CVE-2007-1950) | webblizzard CMS | Cross-Site Scripting (XSS) | CWE-79 | 2007 |
+| [CVE-2007-1949](https://nvd.nist.gov/vuln/detail/CVE-2007-1949) | webblizzard CMS | Session Fixation | CWE-384 | 2007 |
+| [CVE-2006-7077](https://nvd.nist.gov/vuln/detail/CVE-2006-7077) | Advanced Guestbook for phpBB | SQL Injection | CWE-89 | 2006 |
+| [CVE-2006-7076](https://nvd.nist.gov/vuln/detail/CVE-2006-7076) | Advanced Guestbook for phpBB | Cross-Site Scripting (XSS) | CWE-79 | 2006 |
+| [CVE-2006-6451](https://nvd.nist.gov/vuln/detail/CVE-2006-6451) | Plesk | Multiple XSS | CWE-79 | 2006 |
+| [CVE-2006-5643](https://nvd.nist.gov/vuln/detail/CVE-2006-5643) | ForeSite CMS | Cross-Site Scripting (XSS) | CWE-79 | 2006 |
 
 ## Named vendor advisories
 
