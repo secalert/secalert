@@ -1,9 +1,8 @@
 ## Hi there 👋
-# David Vieira-Kurz (`@secalert`) 
+# David Vieira Kurz (`@secalert`) 
 Security Ninja since 2007. 
 
-This page lists publicly verifiable vulnerability findings credited to **David Vieira-Kurz** 
-(also written *David Vieira Kurz*).
+This page lists publicly verifiable vulnerability findings credited to **David Vieira Kurz** 
 
 GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor advisories, vendor acknowledgements and publicly disclosed bug bounty reports.
 
