@@ -1,6 +1,6 @@
 ## Hi there 👋
 # David Vieira Kurz (`@secalert`) 
-Security Ninja since 2007. 
+Application Security & 0day Research 🛡️ | since 2006.
 
 This page lists publicly verifiable vulnerability findings credited to **David Vieira Kurz** 
 
