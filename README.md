@@ -15,6 +15,7 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 | [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | Stored XSS | CWE-79 | 2026 |
 | [phpMyFAQ SA-2026-10-03](https://www.phpmyfaq.de/security/advisory-2026-10-03/) | phpMyFAQ <= 4.1.8 | Stored XSS | CWE-79 | 2026 |
 | [SCEditor Changelog](https://github.com/samclarke/SCEditor/releases/tag/v3.2.2) | SCEditor <= 3.2.1 | Stored XSS | CWE-79 | 2026 |
+| [Keycloak write-up](https://window.name/posts/keycloak-user-enumeration-timing-side-channel) | Keycloak | Side-Channel | CWE-204 | 2026 |
 | [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | Unauthenticated Remote Code Execution | CWE-917 | 2016 |
 | [CVE-2016-3109](https://nvd.nist.gov/vuln/detail/CVE-2016-3109) | Shopware | Unauthenticated Remote Code Execution | CWE-94 | 2016 |
 | [CVE-2012-0674](https://nvd.nist.gov/vuln/detail/CVE-2012-0674) | Apple iOS / Mobile Safari | Address Bar Spoofing | CWE-451 | 2012 |
