@@ -11,6 +11,7 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 ## Advisories and CVEs
 | ID | Product | Type | CWE | Year |
 |----|---------|------|-----|------|
+| [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | Stored XSS | CWE-79 | 2026 |
 | [GHSA-mf2p-h6hf-fcwm](https://github.com/tinymce/tinymce/security/advisories/GHSA-mf2p-h6hf-fcwm) | TinyMCE <=8.9.2 | Stored XSS | CWE-79 | 2026 |
 | [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | Stored XSS | CWE-79 | 2026 |
 | [phpMyFAQ SA-2026-10-03](https://www.phpmyfaq.de/security/advisory-2026-10-03/) | phpMyFAQ <= 4.1.8 | Stored XSS | CWE-79 | 2026 |
