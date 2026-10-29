@@ -9,41 +9,42 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 **Handle:** @secalert &nbsp;&nbsp; [hackerone.com/secalert](https://hackerone.com/secalert)
 
 ## Advisories and CVEs
-| ID | Product | Type | CWE | Year |
-|----|---------|------|-----|------|
-| [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | Stored XSS | CWE-79 | 2026 |
-| [GHSA-mf2p-h6hf-fcwm](https://github.com/tinymce/tinymce/security/advisories/GHSA-mf2p-h6hf-fcwm) | TinyMCE <=8.9.2 | Stored XSS | CWE-79 | 2026 |
-| [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | Stored XSS | CWE-79 | 2026 |
-| [phpMyFAQ SA-2026-10-03](https://www.phpmyfaq.de/security/advisory-2026-10-03/) | phpMyFAQ <= 4.1.8 | Stored XSS | CWE-79 | 2026 |
-| [SCEditor Changelog](https://github.com/samclarke/SCEditor/releases/tag/v3.2.2) | SCEditor <= 3.2.1 | Stored XSS | CWE-79 | 2026 |
-| [Keycloak write-up](https://window.name/posts/keycloak-user-enumeration-timing-side-channel) | Keycloak | Side-Channel | CWE-204 | 2026 |
-| [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | Unauthenticated Remote Code Execution | CWE-917 | 2016 |
-| [CVE-2016-3109](https://nvd.nist.gov/vuln/detail/CVE-2016-3109) | Shopware | Unauthenticated Remote Code Execution | CWE-94 | 2016 |
-| [CVE-2012-0674](https://nvd.nist.gov/vuln/detail/CVE-2012-0674) | Apple iOS / Mobile Safari | Address Bar Spoofing | CWE-451 | 2012 |
-| [CVE-2011-4634](https://nvd.nist.gov/vuln/detail/CVE-2011-4634) | phpMyAdmin | Cross-Site Scripting (XSS) | CWE-79 | 2011 |
-| [CVE-2011-0635](https://nvd.nist.gov/vuln/detail/CVE-2011-0635) | Simploo CMS Community Edition | Remote PHP Code Injection | CWE-94 | 2011 |
-| [CVE-2011-0508](https://nvd.nist.gov/vuln/detail/CVE-2011-0508) | Contao CMS | Persistent XSS | CWE-79 | 2011 |
-| [CVE-2010-2339](https://nvd.nist.gov/vuln/detail/CVE-2010-2339) | Subdreamer CMS | SQL Injection | CWE-89 | 2010 |
-| [CVE-2008-6131](https://nvd.nist.gov/vuln/detail/CVE-2008-6131) | moziloWiki | Session Fixation | CWE-384 | 2008 |
-| [CVE-2008-6130](https://nvd.nist.gov/vuln/detail/CVE-2008-6130) | moziloWiki | Cross-Site Scripting (XSS) | CWE-79 | 2008 |
-| [CVE-2008-6129](https://nvd.nist.gov/vuln/detail/CVE-2008-6129) | moziloWiki | Directory Traversal | CWE-22 | 2008 |
-| [CVE-2008-6128](https://nvd.nist.gov/vuln/detail/CVE-2008-6128) | moziloCMS | Directory Traversal / XSS / Session Fixation | CWE-22 / CWE-79 / CWE-384 | 2008 |
-| [CVE-2008-6127](https://nvd.nist.gov/vuln/detail/CVE-2008-6127) | moziloCMS | Directory Traversal / XSS / Session Fixation | CWE-22 / CWE-79 / CWE-384 | 2008 |
-| [CVE-2008-6045](https://nvd.nist.gov/vuln/detail/CVE-2008-6045) | xt:Commerce | Session Fixation | CWE-384 | 2008 |
-| [CVE-2008-6044](https://nvd.nist.gov/vuln/detail/CVE-2008-6044) | xt:Commerce | Cross-Site Scripting (XSS) | CWE-79 | 2008 |
-| [CVE-2008-6039](https://nvd.nist.gov/vuln/detail/CVE-2008-6039) | BLUEPAGE CMS | XSS / Session Fixation | CWE-79 / CWE-384 | 2008 |
-| [CVE-2007-3988](https://nvd.nist.gov/vuln/detail/CVE-2007-3988) | Virtual Hosting Control System (VHCS) | Session Fixation | CWE-384 | 2007 |
-| [CVE-2007-2546](https://nvd.nist.gov/vuln/detail/CVE-2007-2546) | Simple Machines Forum (SMF) | Session Fixation | CWE-384 | 2007 |
-| [CVE-2007-2277](https://nvd.nist.gov/vuln/detail/CVE-2007-2277) | Plogger | Session Fixation | CWE-384 | 2007 |
-| [CVE-2007-2153](https://nvd.nist.gov/vuln/detail/CVE-2007-2153) | @Mail (ATMail) | Cross-Site Scripting (XSS) | CWE-79 | 2007 |
-| [CVE-2007-2061](https://nvd.nist.gov/vuln/detail/CVE-2007-2061) | MailBee WebMail Pro | Cross-Site Scripting (XSS) | CWE-79 | 2007 |
-| [CVE-2007-1952](https://nvd.nist.gov/vuln/detail/CVE-2007-1952) | onebyone CMS | Session Fixation | CWE-384 | 2007 |
-| [CVE-2007-1950](https://nvd.nist.gov/vuln/detail/CVE-2007-1950) | webblizzard CMS | Cross-Site Scripting (XSS) | CWE-79 | 2007 |
-| [CVE-2007-1949](https://nvd.nist.gov/vuln/detail/CVE-2007-1949) | webblizzard CMS | Session Fixation | CWE-384 | 2007 |
-| [CVE-2006-7077](https://nvd.nist.gov/vuln/detail/CVE-2006-7077) | Advanced Guestbook for phpBB | SQL Injection | CWE-89 | 2006 |
-| [CVE-2006-7076](https://nvd.nist.gov/vuln/detail/CVE-2006-7076) | Advanced Guestbook for phpBB | Cross-Site Scripting (XSS) | CWE-79 | 2006 |
-| [CVE-2006-6451](https://nvd.nist.gov/vuln/detail/CVE-2006-6451) | Plesk | Multiple XSS | CWE-79 | 2006 |
-| [CVE-2006-5643](https://nvd.nist.gov/vuln/detail/CVE-2006-5643) | ForeSite CMS | Cross-Site Scripting (XSS) | CWE-79 | 2006 |
+| ID | Product | CWE | Year |
+|----|---------|-----|------|
+| [GHSA-8494-f6mr-cjpv](https://github.com/hapijs/content/security/advisories/GHSA-8494-f6mr-cjpv) | @hapi/content <= 6.0.2 | CWE-1333 | 2026 |
+| [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | CWE-79 | 2026 |
+| [CVE-2026-116675](https://github.com/tinymce/tinymce/security/advisories/GHSA-mf2p-h6hf-fcwm) | TinyMCE 7.9.3, 8.5.1 - 8.9.2 | CWE-79 | 2026 |
+| [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | CWE-79 | 2026 |
+| [phpMyFAQ SA-2026-10-03](https://www.phpmyfaq.de/security/advisory-2026-10-03/) | phpMyFAQ <= 4.1.8 | CWE-79 | 2026 |
+| [SCEditor Changelog](https://github.com/samclarke/SCEditor/releases/tag/v3.2.2) | SCEditor <= 3.2.1 | CWE-79 | 2026 |
+| [Keycloak write-up](https://window.name/posts/keycloak-user-enumeration-timing-side-channel) | Keycloak | CWE-204 | 2026 |
+| [CVE-2016-4977](https://nvd.nist.gov/vuln/detail/CVE-2016-4977) | Spring Security OAuth | CWE-917 | 2016 |
+| [CVE-2016-3109](https://nvd.nist.gov/vuln/detail/CVE-2016-3109) | Shopware | CWE-94 | 2016 |
+| [CVE-2012-0674](https://nvd.nist.gov/vuln/detail/CVE-2012-0674) | Apple iOS / Mobile Safari | CWE-451 | 2012 |
+| [CVE-2011-4634](https://nvd.nist.gov/vuln/detail/CVE-2011-4634) | phpMyAdmin | CWE-79 | 2011 |
+| [CVE-2011-0635](https://nvd.nist.gov/vuln/detail/CVE-2011-0635) | Simploo CMS Community Edition | CWE-94 | 2011 |
+| [CVE-2011-0508](https://nvd.nist.gov/vuln/detail/CVE-2011-0508) | Contao CMS | CWE-79 | 2011 |
+| [CVE-2010-2339](https://nvd.nist.gov/vuln/detail/CVE-2010-2339) | Subdreamer CMS | CWE-89 | 2010 |
+| [CVE-2008-6131](https://nvd.nist.gov/vuln/detail/CVE-2008-6131) | moziloWiki | CWE-384 | 2008 |
+| [CVE-2008-6130](https://nvd.nist.gov/vuln/detail/CVE-2008-6130) | moziloWiki | CWE-79 | 2008 |
+| [CVE-2008-6129](https://nvd.nist.gov/vuln/detail/CVE-2008-6129) | moziloWiki | CWE-22 | 2008 |
+| [CVE-2008-6128](https://nvd.nist.gov/vuln/detail/CVE-2008-6128) | moziloCMS | CWE-22 / CWE-79 / CWE-384 | 2008 |
+| [CVE-2008-6127](https://nvd.nist.gov/vuln/detail/CVE-2008-6127) | moziloCMS | CWE-22 / CWE-79 / CWE-384 | 2008 |
+| [CVE-2008-6045](https://nvd.nist.gov/vuln/detail/CVE-2008-6045) | xt:Commerce | CWE-384 | 2008 |
+| [CVE-2008-6044](https://nvd.nist.gov/vuln/detail/CVE-2008-6044) | xt:Commerce | CWE-79 | 2008 |
+| [CVE-2008-6039](https://nvd.nist.gov/vuln/detail/CVE-2008-6039) | BLUEPAGE CMS | CWE-79 / CWE-384 | 2008 |
+| [CVE-2007-3988](https://nvd.nist.gov/vuln/detail/CVE-2007-3988) | Virtual Hosting Control System (VHCS) | CWE-384 | 2007 |
+| [CVE-2007-2546](https://nvd.nist.gov/vuln/detail/CVE-2007-2546) | Simple Machines Forum (SMF) | CWE-384 | 2007 |
+| [CVE-2007-2277](https://nvd.nist.gov/vuln/detail/CVE-2007-2277) | Plogger | CWE-384 | 2007 |
+| [CVE-2007-2153](https://nvd.nist.gov/vuln/detail/CVE-2007-2153) | @Mail (ATMail) | CWE-79 | 2007 |
+| [CVE-2007-2061](https://nvd.nist.gov/vuln/detail/CVE-2007-2061) | MailBee WebMail Pro | CWE-79 | 2007 |
+| [CVE-2007-1952](https://nvd.nist.gov/vuln/detail/CVE-2007-1952) | onebyone CMS | CWE-384 | 2007 |
+| [CVE-2007-1950](https://nvd.nist.gov/vuln/detail/CVE-2007-1950) | webblizzard CMS | CWE-79 | 2007 |
+| [CVE-2007-1949](https://nvd.nist.gov/vuln/detail/CVE-2007-1949) | webblizzard CMS | CWE-384 | 2007 |
+| [CVE-2006-7077](https://nvd.nist.gov/vuln/detail/CVE-2006-7077) | Advanced Guestbook for phpBB | CWE-89 | 2006 |
+| [CVE-2006-7076](https://nvd.nist.gov/vuln/detail/CVE-2006-7076) | Advanced Guestbook for phpBB | CWE-79 | 2006 |
+| [CVE-2006-6451](https://nvd.nist.gov/vuln/detail/CVE-2006-6451) | Plesk | CWE-79 | 2006 |
+| [CVE-2006-5643](https://nvd.nist.gov/vuln/detail/CVE-2006-5643) | ForeSite CMS | CWE-79 | 2006 |
 
 ## My old advisories
 
