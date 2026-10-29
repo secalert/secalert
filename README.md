@@ -11,9 +11,9 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 ## Advisories and CVEs
 | ID | Product | CWE | Year |
 |----|---------|-----|------|
-| [GHSA-8494-f6mr-cjpv](https://github.com/hapijs/content/security/advisories/GHSA-8494-f6mr-cjpv) | @hapi/content <= 6.0.2 | CWE-1333 | 2026 |
-| [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | CWE-79 | 2026 |
+| [CVE-2026-119202](https://github.com/hapijs/content/security/advisories/GHSA-8494-f6mr-cjpv) | @hapi/content <= 6.0.2 | CWE-1333 | 2026 |
 | [CVE-2026-116675](https://github.com/tinymce/tinymce/security/advisories/GHSA-mf2p-h6hf-fcwm) | TinyMCE 7.9.3, 8.5.1 - 8.9.2 | CWE-79 | 2026 |
+| [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | CWE-79 | 2026 |
 | [GHSA-jhhp-r3r7-v2cg](https://github.com/xdan/jodit/security/advisories/GHSA-jhhp-r3r7-v2cg) | Jodit (npm `jodit`, `<= 4.17.0`) | CWE-79 | 2026 |
 | [phpMyFAQ SA-2026-10-03](https://www.phpmyfaq.de/security/advisory-2026-10-03/) | phpMyFAQ <= 4.1.8 | CWE-79 | 2026 |
 | [SCEditor Changelog](https://github.com/samclarke/SCEditor/releases/tag/v3.2.2) | SCEditor <= 3.2.1 | CWE-79 | 2026 |
