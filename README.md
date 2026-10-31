@@ -11,6 +11,7 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 ## Advisories and CVEs
 | ID | Product | CWE | Year |
 |----|---------|-----|------|
+| [CVE-2026-115274](https://cna.erlef.org/cves/CVE-2026-115274.html) | Elixir < 1.18.6, < 1.19.7, < 1.20.5 | CWE-1284 | 2026 |
 | [CVE-2026-119202](https://github.com/hapijs/content/security/advisories/GHSA-8494-f6mr-cjpv) | @hapi/content <= 6.0.2 | CWE-1333 | 2026 |
 | [CVE-2026-116675](https://github.com/tinymce/tinymce/security/advisories/GHSA-mf2p-h6hf-fcwm) | TinyMCE 7.9.3, 8.5.1 - 8.9.2 | CWE-79 | 2026 |
 | [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | CWE-79 | 2026 |
