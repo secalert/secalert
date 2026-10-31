@@ -29,11 +29,11 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 | [CVE-2008-6131](https://nvd.nist.gov/vuln/detail/CVE-2008-6131) | moziloWiki | CWE-384 | 2008 |
 | [CVE-2008-6130](https://nvd.nist.gov/vuln/detail/CVE-2008-6130) | moziloWiki | CWE-79 | 2008 |
 | [CVE-2008-6129](https://nvd.nist.gov/vuln/detail/CVE-2008-6129) | moziloWiki | CWE-22 | 2008 |
-| [CVE-2008-6128](https://nvd.nist.gov/vuln/detail/CVE-2008-6128) | moziloCMS | CWE-22 / CWE-79 / CWE-384 | 2008 |
-| [CVE-2008-6127](https://nvd.nist.gov/vuln/detail/CVE-2008-6127) | moziloCMS | CWE-22 / CWE-79 / CWE-384 | 2008 |
+| [CVE-2008-6128](https://nvd.nist.gov/vuln/detail/CVE-2008-6128) | moziloCMS | CWE-22 | 2008 |
+| [CVE-2008-6127](https://nvd.nist.gov/vuln/detail/CVE-2008-6127) | moziloCMS | CWE-22 | 2008 |
 | [CVE-2008-6045](https://nvd.nist.gov/vuln/detail/CVE-2008-6045) | xt:Commerce | CWE-384 | 2008 |
 | [CVE-2008-6044](https://nvd.nist.gov/vuln/detail/CVE-2008-6044) | xt:Commerce | CWE-79 | 2008 |
-| [CVE-2008-6039](https://nvd.nist.gov/vuln/detail/CVE-2008-6039) | BLUEPAGE CMS | CWE-79 / CWE-384 | 2008 |
+| [CVE-2008-6039](https://nvd.nist.gov/vuln/detail/CVE-2008-6039) | BLUEPAGE CMS | CWE-384 | 2008 |
 | [CVE-2007-3988](https://nvd.nist.gov/vuln/detail/CVE-2007-3988) | Virtual Hosting Control System (VHCS) | CWE-384 | 2007 |
 | [CVE-2007-2546](https://nvd.nist.gov/vuln/detail/CVE-2007-2546) | Simple Machines Forum (SMF) | CWE-384 | 2007 |
 | [CVE-2007-2277](https://nvd.nist.gov/vuln/detail/CVE-2007-2277) | Plogger | CWE-384 | 2007 |
