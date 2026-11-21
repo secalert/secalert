@@ -14,7 +14,7 @@ GitHub Security Advisories (GHSA) and assigned CVE IDs, followed by named vendor
 | [CVE-2026-115274](https://cna.erlef.org/cves/CVE-2026-115274.html) | Elixir < 1.18.6, < 1.19.7, < 1.20.5 | CWE-1284 |
 | [CVE-2026-119202](https://github.com/hapijs/content/security/advisories/GHSA-8494-f6mr-cjpv) | @hapi/content <= 6.0.2 | CWE-1333 |
 | [CVE-2026-116675](https://github.com/tinymce/tinymce/security/advisories/GHSA-mf2p-h6hf-fcwm) | TinyMCE 7.9.3, 8.5.1 - 8.9.2 | CWE-79 |
-| [GHSA-qvv8-c4p9-h5xv](https://github.com/laravel/framework/security/advisories/GHSA-qvv8-c4p9-h5xv) | Misskey (`>= 12.69.0`, `< 2026.10.1`) | CWE-407 |
+| [GHSA-qvv8-c4p9-h5xv](https://github.com/misskey-dev/misskey/security/advisories/GHSA-qvv8-c4p9-h5xv) | Misskey (`>= 12.69.0`, `< 2026.10.1`) | CWE-407 |
 | [GHSA-cvfq-f547-rv2g](https://github.com/laravel/framework/security/advisories/GHSA-cvfq-f547-rv2g) | Laravel Framework (Composer `laravel/framework`, `< 12.72.0`, `< 13.43.0`) | CWE-400 |
 | [GHSA-6wrw-v5gj-6xg7](https://github.com/xdan/jodit/security/advisories/GHSA-6wrw-v5gj-6xg7) | Jodit (npm `jodit`, `< 4.19.14`) | CWE-79 |
 | [GHSA-hmw9-qvxc-c9hr](https://github.com/samclarke/SCEditor/security/advisories/GHSA-hmw9-qvxc-c9hr) | SCEditor <= 3.2.2 | CWE-79 |
